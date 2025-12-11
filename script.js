@@ -8,7 +8,7 @@ const CONFIG = {
         sun: 'assets/textures/sun.jpg',
         mercury: 'assets/textures/mercury.jpg',
         venus: 'assets/textures/venus.jpg',
-        earth: 'assets/textures/earth.jpg',
+        earth: 'https://raw.githubusercontent.com/ArthurKennedyOficial/Sistema-Solar-Web/refs/heads/main/assets/textures/earth.jpg',
         mars: 'assets/textures/mars.jpg',
         jupiter: 'assets/textures/jupiter.jpg',
         saturn: 'assets/textures/saturn.jpg',
@@ -613,4 +613,5 @@ function onWindowResize() {
     renderer.setSize(window.innerWidth, window.innerHeight);
 
 }
+
 
