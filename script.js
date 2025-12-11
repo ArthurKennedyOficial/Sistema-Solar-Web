@@ -5,16 +5,16 @@
 const CONFIG = {
     // CONFIGURAÇÃO DE TEXTURAS - Altere os caminhos para suas imagens
     textures: {
-        sun: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Solarsystemscope_texture_2k_sun.jpg',
-        mercury: 'textures/mercury.jpg',
-        venus: 'textures/venus.jpg',
-        earth: 'https://github.com/ArthurKennedyOficial/Sistema-Solar-Web/blob/main/assets/textures/earth.jpg',
-        mars: 'textures/mars.jpg',
-        jupiter: 'textures/jupiter.jpg',
+        sun: 'assets/textures/sun.jpg',
+        mercury: 'assets/textures/mercury.jpg',
+        venus: 'assets/textures/venus.jpg',
+        earth: 'assets/textures/earth.jpg',
+        mars: 'assets/textures/mars.jpg',
+        jupiter: 'assets/textures/jupiter.jpg',
         saturn: 'assets/textures/saturn.jpg',
-        saturnRing: 'https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/saturn_ring.png',
-        uranus: 'https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/uranus.jpg',
-        neptune: 'https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/neptune.jpg'
+        saturnRing: 'assets/textures/saturn_ring.png',
+        uranus: 'assets/textures/uranus.jpg',
+        neptune: 'assets/textures/neptune.jpg'
     },
     
     // CONFIGURAÇÃO DE ÁUDIOS - Altere os URLs para seus arquivos de áudio
@@ -613,3 +613,4 @@ function onWindowResize() {
     renderer.setSize(window.innerWidth, window.innerHeight);
 
 }
+
