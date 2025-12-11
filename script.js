@@ -8,7 +8,7 @@ const CONFIG = {
         sun: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Solarsystemscope_texture_2k_sun.jpg',
         mercury: 'textures/mercury.jpg',
         venus: 'textures/venus.jpg',
-        earth: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Earthmap1000x500.jpg',
+        earth: 'https://github.com/ArthurKennedyOficial/Sistema-Solar-Web/blob/main/assets/textures/earth.jpg',
         mars: 'textures/mars.jpg',
         jupiter: 'textures/jupiter.jpg',
         saturn: 'assets/textures/saturn.jpg',
@@ -611,4 +611,5 @@ function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
+
 }
